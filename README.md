@@ -1,6 +1,6 @@
 # Course-CSCI680-Afia
 
-File1: updated_method_extractor.py
+### File1: updated_method_extractor.py
 Purpose: This script is used to extract method code and documentation from GitHub repositories. It has processed six Python projects, generating a separate CSV file for each project that captures the essential details of Python methods and their corresponding documentation.
 
 File2: json_combined.py
