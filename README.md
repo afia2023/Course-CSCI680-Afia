@@ -4,7 +4,7 @@ File1: updated_method_extractor.py
 Purpose: This script is used to extract method code and documentation from GitHub repositories. It has processed six Python projects, generating a separate CSV file for each project that captures the essential details of Python methods and their corresponding documentation.
 
 File2: json_combined.py
-Purpose: This utility script combines all six CSV files into a single JSON file, named Dataset_method.json. This merged dataset contains approximately 32,000 entries of Python methods paired with their documentation, providing a comprehensive resource for further analysis.
+Purpose: This utility script combines all six CSV files into a single JSON file, named Dataset_method.json. This merged dataset contains approximately 32,000 entries of Python methods, providing a comprehensive resource for further analysis.
 
 File3: main3.py
 Purpose: This script is the core of our n-gram model processing. It handles the training, evaluation, and final output generation of different n-gram models, facilitating a thorough analysis of method documentation.
