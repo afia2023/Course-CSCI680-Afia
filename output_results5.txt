@@ -1,0 +1,24 @@
+Accuracy of 2-gram model on validation set: 0.2458
+Accuracy of 3-gram model on validation set: 0.3428
+Accuracy of 4-gram model on validation set: 0.3406
+Accuracy of 5-gram model on validation set: 0.3100
+Accuracy of 6-gram model on validation set: 0.2492
+Accuracy of 7-gram model on validation set: 0.2002
+
+The best performing model is the 3-gram model with accuracy 0.3428
+
+Predicting tokens for 100 input test tasks:
+
+Showing first 10 token predictions and their actual matches:
+Prefix: ('<start>', '<start>'), Predicted: def, Actual: def
+Prefix: ('<start>', 'def'), Predicted: __init__, Actual: handle_CNL
+Prefix: ('def', 'handle_CNL'), Predicted: Unknown, Actual: (
+Prefix: ('handle_CNL', '('), Predicted: Unknown, Actual: self
+Prefix: ('(', 'self'), Predicted: ), Actual: )
+Prefix: ('self', ')'), Predicted: :, Actual: :
+Prefix: (')', ':'), Predicted: return, Actual: try
+Prefix: (':', 'try'), Predicted: :, Actual: :
+Prefix: ('try', ':'), Predicted: return, Actual: m
+Prefix: (':', 'm'), Predicted: =, Actual: =
+
+Accuracy: 0.3358
