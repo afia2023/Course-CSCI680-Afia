@@ -17,7 +17,7 @@ all_method_codes = []
 # Read each file and extract the "Method code" column
 for path in file_paths:
     df = pd.read_csv(path)
-    # Assuming 'Method code' column exists and you only want to extract this column
+    # Assuming 'Method code' column exists and I only want to extract this column
     method_codes = df['Method Code'].tolist()  # Convert column to list
     all_method_codes.extend(method_codes)  # Add to the master list
 
@@ -26,10 +26,10 @@ json_data = json.dumps(all_method_codes, indent=4)
 
 # Print first few entries to check the data
 print("Sample of the JSON data:")
-print(json.dumps(all_method_codes[:5], indent=4))  # Adjust the slice [:5] to display more or less data
+print(json.dumps(all_method_codes[:5], indent=4))  # Using slice [:5] to display more or less data
 
 # Specify the directory and filename where you want to save the JSON file
-save_path = '/home/afarjana/SE4DL/Dataset_methods.json'  # Update this line with your desired file path
+save_path = '/home/afarjana/SE4DL/Dataset_methods.json'  # Desired file path
 
 # Write the JSON data to the file at the specified path
 with open(save_path, 'w') as json_file:
