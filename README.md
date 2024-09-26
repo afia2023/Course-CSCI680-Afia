@@ -7,7 +7,7 @@ File2: json_combined.py
 Purpose: This utility script combines all six CSV files into a single JSON file, named Dataset_method.json. This merged dataset contains approximately 32,000 entries of Python methods, providing a comprehensive resource for further analysis.
 
 File3: main3.py
-Purpose: This script is the core of our n-gram model processing. It handles the training, evaluation, and final output generation of different n-gram models, facilitating a thorough analysis of method documentation.
+Purpose: This script is the core of our n-gram model processing. It handles the training, evaluation, and final output generation of different n-gram models, facilitating a thorough analysis of n-gram model performence.
 
 File4: output_results5.txt
 Purpose: This text file contains detailed outputs from the n-gram model evaluations, including accuracy metrics and other statistical data that highlight the performance of the models throughout the testing phase.
