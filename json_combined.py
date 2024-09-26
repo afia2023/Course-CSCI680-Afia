@@ -28,7 +28,7 @@ json_data = json.dumps(all_method_codes, indent=4)
 print("Sample of the JSON data:")
 print(json.dumps(all_method_codes[:5], indent=4))  # Using slice [:5] to display more or less data
 
-# Specify the directory and filename where you want to save the JSON file
+# Specify the directory and filename where I want to save the JSON file
 save_path = '/home/afarjana/SE4DL/Dataset_methods.json'  # Desired file path
 
 # Write the JSON data to the file at the specified path
